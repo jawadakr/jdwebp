@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content">
+	<name>Jd Webp Convertor</name>
+	<author>Jawad Ul Hassan</author>
+	<creationDate>March 2020</creationDate>
+	<copyright>Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>jawad@websysdynamics.com</authorEmail>
+	<authorUrl>www.websysdynamics.org</authorUrl>
+	<version>3.0.0</version>
+	<description>PLG_JDWEBP_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="jdwebp">jdwebp.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_content_jdwebp.ini</language>
+		<language tag="en-GB">en-GB.plg_content_jdwebp.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				
+				
+				<field
+					name="quality"
+					type="list"
+					label="PLG_JDWEBP_FIELD_QUALITY_LABEL"
+					description="PLG_JDWEBP_FIELD_QUALITY_DESC"
+					default="75"
+					>
+					<option value="10">PLG_JDWEBP_FIELD_VALUE_10</option>
+					<option value="20">PLG_JDWEBP_FIELD_VALUE_20</option>
+					<option value="30">PLG_JDWEBP_FIELD_VALUE_30</option>
+					<option value="40">PLG_JDWEBP_FIELD_VALUE_40</option>
+					<option value="50">PLG_JDWEBP_FIELD_VALUE_50</option>
+										<option value="60">PLG_JDWEBP_FIELD_VALUE_60</option>
+															<option value="70">PLG_JDWEBP_FIELD_VALUE_70</option>
+					<option value="75">PLG_JDWEBP_FIELD_VALUE_75</option>
+										<option value="80">PLG_JDWEBP_FIELD_VALUE_80</option>
+									<option value="85">PLG_JDWEBP_FIELD_VALUE_85</option>
+											<option value="90">PLG_JDWEBP_FIELD_VALUE_90</option>
+									<option value="95">PLG_JDWEBP_FIELD_VALUE_95</option>	
+									<option value="100">PLG_JDWEBP_FIELD_VALUE_100</option>																				
+				</field>
+				
+				
+			</fieldset>
+		</fields>
+	</config>
+</extension>
